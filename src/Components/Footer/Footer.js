@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div className="Footer">
             <p>
-                Midgard 5 Character Management
+                Ein Projekt von Oliver Ziemann
                 </p>
         </div>
     );
