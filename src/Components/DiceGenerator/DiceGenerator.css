@@ -1,0 +1,64 @@
+.diceGenerator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 400px;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: #666699;
+    height: 300px;
+}
+
+.container-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.diceGenerator__headline{
+    color: black;
+}
+
+.diceGenerator__text {
+    color: white;
+}
+
+.diceGenerator__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+}
+
+.diceGenerator__button {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #33334d;
+    border-radius: 5px;
+    background-color: #33334d;
+}
+
+.diceGenerator__input {
+    width: 100px;
+    border: 2px solid #33334d;
+    border-radius: 5px;
+}
+
+.rollHistory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: #666699;
+    height: 300px;
+}

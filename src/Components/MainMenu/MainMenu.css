@@ -1,0 +1,23 @@
+.MainMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    height: 100%;
+    width:100%;
+}
+
+.MainMenu button {
+    border: 1px solid #33334d;
+    border-radius: 5px;
+    background-color: #666699;
+    width: 200px;
+    height: 50px;
+    margin: 15px;
+}
+
+.MainMenu .row {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
