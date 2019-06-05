@@ -1,3 +1,6 @@
+@import '../src/SCSS/colors';
+
 .app {
   background: url(./Assets/background.jpg) no-repeat center;
+  background-color: $primary-color;
 }

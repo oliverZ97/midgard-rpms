@@ -6,6 +6,7 @@ import DiceGenerator from './Components/DiceGenerator/DiceGenerator';
 import WeatherGenerator from './Components/WeatherGenerator/WeatherGenerator';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
+import EncounterGenerator from './Components/EncounterGenerator/EncounterGenerator';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <div className="content">
       <DiceGenerator />
       <WeatherGenerator />
+      <EncounterGenerator />
       </div>
       <Footer />
     </div>
